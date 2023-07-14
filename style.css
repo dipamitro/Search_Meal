@@ -1,0 +1,62 @@
+body{
+    width: 99%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+/* .bx{
+    font-size: 22px;
+    padding: auto;
+    border: 1px solid rgb(7, 66, 7);
+    border-radius: 50%;
+   
+} 
+.bx:hover{
+    background-color:rgb(7, 66, 7);
+    color: #fff;
+    border: 1px solid rgb(7, 66, 7);
+} */
+.pagination{
+   display: flex;
+   gap: 30px;
+   list-style: none;
+}
+.paglink{
+    text-decoration: none;
+    
+}
+.page{
+    border: 10px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+   
+  
+}
+.bordr{
+    border: 1px solid black;
+    border-radius: 50%;
+ 
+}
+.page:hover{
+    border: 10px solid rgb(7, 66, 7);
+    background-color: rgb(7, 66, 7);
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    border-color:rgb(7, 66, 7) !important ;
+}
+
+a{
+    color: black;
+    font-size: 20px;
+
+}
+.page:hover a{
+    color: rgb(255, 255, 255);
+}
