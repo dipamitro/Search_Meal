@@ -1,0 +1,195 @@
+.watch1{
+
+}
+body{
+    height: 100vh;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.watch1{
+    background-color: blanchedalmond;
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+#sec {
+    position: absolute;
+    color: black !important;
+    height: 50px;
+    width: 2px;
+    top: 3px;
+    left: 93px;
+    bottom: 0;
+}
+#sec {
+    position: absolute;
+    color: black !important;
+    height: 50px;
+    width: 2px;
+    top: 3px;
+    left: 93px;
+    bottom: 0;
+}
+.one {
+    position: absolute;
+    color: black !important;
+    height: 50px;
+    width: 2px;
+    top: 9px;
+    left: 41px;
+    bottom: 12px;
+}
+.two {
+    position: absolute;
+    color: black !important;
+    height: 50px;
+    width: 2px;
+    top: 37px;
+    left: 75px;
+    bottom: 12px;
+}
+.three {
+    position: absolute;
+    color: black !important;
+    height: 50px;
+    width: 2px;
+    top: 68px;
+    left: 88px;
+    bottom: 12px;
+}
+.four {
+    position: absolute;
+    color: black !important;
+    height: 50px;
+    width: 2px;
+    top: 106px;
+    left: 88px;
+    bottom: 12px;
+}
+.five {
+    position: absolute;
+    color: black !important;
+    height: 50px;
+    width: 2px;
+    top: 146px;
+    left: 74px;
+    bottom: 12px;
+}
+.six {
+    position: absolute;
+    color: black !important;
+    height: 50px;
+    width: 2px;
+    top: 183px;
+    left: 11px;
+    bottom: -10px;
+}
+.secln {
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 3px;
+    color: black;
+    top: 10px;
+    left: 101px;
+}
+.watch4{
+    position: relative;
+}
+.watch4::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000;
+}
+.watch3{
+    position: relative;
+   
+}
+.watch3::after {
+    content: "";
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1px;
+    height: 89px;
+    border-radius: 50%;
+    background: #000;
+    animation: timer 60s infinite linear;
+}
+.seckata{
+    position: relative;
+   
+}
+.seckata::after {
+    content: "";
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1px;
+    height: 89px;
+    border-radius: 50%;
+    background: #000;
+    animation: timer 3600s infinite linear;
+}
+.hurkata{
+    position: relative;
+   
+}
+.hurkata::after {
+    content: "";
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1px;
+    height: 89px;
+    border-radius: 50%;
+    background: #000;
+    animation: timer 43200s infinite linear;
+}
+
+.watch5{
+    position: relative;
+}
+.watch1{
+    position: relative;
+}
+
+.hour {
+    height: 70px;
+    width: 4px;
+  }
+  
+  .minute {
+    height: 100px;
+    width: 2px;
+  }
+  
+  .second-hand {
+    height: 110px;
+    width: 1px;
+  }
+
+@keyframes timer{
+    0% {
+        
+        transform: rotate(0deg);
+      }
+   
+      100% {
+        transform: rotate(360deg);
+      }
+}
+
